@@ -1,0 +1,249 @@
+@import '~antd/lib/style/themes/default.less';
+@import '~@/utils/utils.less';
+
+.avatarHolder {
+  text-align: center;
+  margin-bottom: 24px;
+
+  & > img {
+    width: 104px;
+    height: 104px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .name {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    color: @heading-color;
+    margin-bottom: 4px;
+  }
+
+  &:after{
+    content: ' ';
+    display: table;
+    clear: both;
+  }
+}
+
+.detail {
+  p {
+    margin-bottom: 8px;
+    padding-left: 26px;
+    position: relative;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  i {
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    left: 0;
+    top: 4px;
+    background: url(https://gw.alipayobjects.com/zos/rmsportal/pBjWzVAHnOOtAUvZmZfy.svg);
+
+    &.title {
+      background-position: 0 0;
+    }
+
+    &.group {
+      background-position: 0 -22px;
+    }
+
+    &.address {
+      background-position: 0 -44px;
+    }
+  }
+}
+
+.tagsTitle,
+.teamTitle {
+  font-weight: 500;
+  color: @heading-color;
+  margin-bottom: 12px;
+}
+
+.tags {
+  :global {
+    .ant-tag {
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.team {
+  :global {
+    .ant-avatar {
+      margin-right: 12px;
+    }
+  }
+
+  a {
+    display: block;
+    margin-bottom: 24px;
+    color: @text-color;
+    transition: color 0.3s;
+    .textOverflow();
+
+    &:hover {
+      color: @primary-color;
+    }
+  }
+}
+
+.tabsCard {
+  :global {
+    .ant-card-head {
+      padding: 0 16px;
+    }
+  }
+}
+.pay_policy{
+  overflow: hidden;
+  bottom: 0;
+  color: #999;
+  padding: 0;
+  margin: 10px 0;
+  .pay_policy_title{ 
+
+    i{
+      float: left;
+      margin-right: 20px;
+    }
+    .icon_policy{
+      width: 19px;
+      height: 19px;
+      margin-right: 2px;
+      display: inline-block;
+      margin-top: -1px;
+      background: url(//8.url.cn/edu/modules/courseDetail/css/icon-detail.10e2f647.png) no-repeat;
+    }
+    .refund_icon1{
+      width: 19px;
+      height: 19px;
+      margin-right: 2px;
+      display: inline-block;
+      margin-top: -1px;
+      background: url(//8.url.cn/edu/modules/courseDetail/css/icon-detail.10e2f647.png) no-repeat;
+      background-position: 0 -24px;
+    }
+  }
+  li{
+    display: inline-block;
+    margin-right: 25px;
+  }
+}
+.extraContent {
+  .clearfix();
+  white-space: nowrap;
+  .statItem {
+    padding: 0 20px;
+    position: relative;
+    display: inline-block;
+    > p:first-child {
+      color: @text-color-secondary;
+      font-size: @font-size-base;
+      line-height: 22px;
+      margin-bottom: 4px;
+    }
+    > p {
+      color: @heading-color;
+      font-size: 30px;
+      line-height: 38px;
+      margin: 0;
+      > span {
+        color: @text-color-secondary;
+        font-size: 20px;
+      }
+    }
+    &:after {
+      background-color: @border-color-split;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 1px;
+      height: 20px;
+      content: '';
+    }
+    &:last-child {
+      padding-right: 0;
+      &:after {
+        display: none;
+      }
+    }
+  }
+}
+.step{
+  width: 60%;
+  margin: 20px 0;
+  float: left;
+}
+.selectStyle{
+  width: 120px;
+  margin: 20px 0;
+  float: right;
+}
+.courseTitle{
+  position: relative;
+  border: 1px solid #ccc;
+  margin: 40px 0;
+  padding: 10px 20px;
+  > h3{
+    position: absolute;
+    top: -15px;
+    width: 75px;
+    background: #fff;
+    text-align: center;
+  }
+  > p{
+    margin: 0;
+  }
+}
+.useModel_Button{
+  margin: 50px 0;
+  > button{
+    margin-right: 15px;
+    border: 1px solid #1890FF;
+  }
+}
+.teacherMessage{
+  margin: 15px 0;
+  .statItem{
+    float: left;
+    width: 33%;
+    font-size: 15px;
+    border-right: 1px solid #e8e8e8;
+    text-align: center;
+    > p:first-child{
+      color: #000;
+    }
+    > p:last-child{
+      color: #999;
+    }
+    > p{
+      padding: 0;
+    }
+    &:last-child {
+      border-right: none;
+    }
+  }
+  &:after{
+    content: ' ';
+    display: table;
+    clear: both;
+  }
+}
+.titleImg{
+  width: 100%;
+  height: 100%;
+}
+.littleTitle{
+  float: left;
+  width: 150px;
+  margin-left: 20px;
+  margin-top: 6px;
+}

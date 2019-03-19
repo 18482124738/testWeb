@@ -1,0 +1,32 @@
+﻿
+export function colorList() {
+  return {
+    0:{'backgroundColorC':'white','colorC':'#75aaef'},
+    1:{'backgroundColorC':'white','colorC':'#6fd4be'},
+    2:{'backgroundColorC':'white','colorC':'#7cd877'},
+    3:{'backgroundColorC':'white','colorC':'#f9b775'},
+    4:{'backgroundColorC':'white','colorC':'#d77ba5'},
+    5:{'backgroundColorC':'white','colorC':'#877cd4'},
+    6:{'backgroundColorC':'white','colorC':'#eb4242'},
+    7:{'backgroundColorC':'white','colorC':'#317ada'},
+    8:{'backgroundColorC':'white','colorC':'#dad731'},
+    9:{'backgroundColorC':'white','colorC':'#026674'},
+    10:{'backgroundColorC':'white','colorC':'#1f8057'},
+    11:{'backgroundColorC':'white','colorC':'#a14b11'},
+    12:{'backgroundColorC':'white','colorC':'#96294d'},
+    13:{'backgroundColorC':'white','colorC':'#574de7'},
+    14:{'backgroundColorC':'white','colorC':'#1e1870'},
+    15:{'backgroundColorC':'white','colorC':'#60a309'},
+    16:{'backgroundColorC':'white','colorC':'#c759be'},
+    17:{'backgroundColorC':'white','colorC':'#64740d'},
+    18:{'backgroundColorC':'white','colorC':'#0d7174'},
+    19:{'backgroundColorC':'white','colorC':'#c759be'},
+    20:{'backgroundColorC':'white','colorC':'#75aaef'},
+    21:{'backgroundColorC':'white','colorC':'#6fd4be'},
+    22:{'backgroundColorC':'white','colorC':'#7cd877'},
+    23:{'backgroundColorC':'white','colorC':'#f9b775'},
+    24:{'backgroundColorC':'white','colorC':'#d77ba5'},
+    25:{'backgroundColorC':'white','colorC':'#877cd4'},
+    26:{'backgroundColorC':'white','colorC':'#eb4242'},
+  }
+}

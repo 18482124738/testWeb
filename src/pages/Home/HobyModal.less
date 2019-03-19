@@ -1,0 +1,56 @@
+
+// 兴趣弹出框样式
+.hobyModal{
+  width: 1175px;
+  position: relative;
+  padding: 0 60px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 3px;
+  .hobyModalHead{
+    font-size: 32px;
+    height: 32px;
+    line-height: 32px;
+    color: #23b8ff;
+    margin-top: 20px;
+    text-align: left;
+    .hobyModalHeadSpan {
+      display: inline-block;
+      
+      vertical-align: middle;
+      font-size: 16px;
+      color: #999;
+    }
+  }
+  .hobyModalBody{
+    overflow-y: scroll;
+    display: flex;
+    margin:20px;
+    border-bottom: 1px solid rgb(156, 156, 156); 
+    flex-wrap:  wrap ;
+    min-height: 300px;
+    max-height: 600px;
+    .hobyModalBodyItem{
+      width: 30%;
+      text-align: left;
+      // color: #b6c759;
+      min-height: 100px;;
+      margin: 15px ;
+      .bodyItemChildBox{
+        display: flex;
+        width: 100%;
+        flex-wrap:  wrap;
+        .bodyItemChild{
+          padding: 7px 10px;
+          border: 1px solid;
+          border-radius: 80px;
+          cursor: pointer;
+          margin: 10px 6px 0 0;
+          line-height: 14px;
+        }
+      }
+    }
+  }
+ 
+  
+}
